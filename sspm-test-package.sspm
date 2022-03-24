@@ -3,7 +3,7 @@ description="A simple test package"
 source=https://github.com/SuperSimplePackageManager/sspm-test-package/archive/refs/tags/v1.0.tar.gz
 format="tar"
 compressed_name="v1.0.tar.gz"
-uncompressed_name="simple-test-package-1.0"
+uncompressed_name="sspm-test-package-1.0"
 sspm-test-package(){
     if [ "$1" == "INSTALL" ]; then
         make install
