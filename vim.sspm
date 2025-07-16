@@ -1,6 +1,6 @@
 name="vim"
 description="vim text editor"
-source=https://github.com/sideb-linux/nano/releases/download/nano/nano-8.5.tar.xz
+source=https://github.com/sideb-linux/nano/releases/download/nano/vim-9.0.2103.tar.xz
 format="tar"
 vim(){
     if [ "$1" == "INSTALL" ]; then
