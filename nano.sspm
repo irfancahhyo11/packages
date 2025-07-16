@@ -4,7 +4,7 @@ source=https://github.com/sideb-linux/nano/releases/download/nano/nano-8.5.tar.x
 format="tar"
 nano(){
     if [ "$1" == "INSTALL" ]; then
-        ./configure
+        make install
     elif [ "$1" == "REMOVE" ]; then
         make remove
     fi
