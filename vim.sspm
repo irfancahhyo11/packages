@@ -1,0 +1,12 @@
+name="vim"
+description="vim text editor"
+source=https://github.com/sideb-linux/nano/releases/download/nano/nano-8.5.tar.xz
+format="tar"
+vim(){
+    if [ "$1" == "INSTALL" ]; then
+        make
+        make install
+    elif [ "$1" == "REMOVE" ]; then
+        make remove
+    fi
+}
