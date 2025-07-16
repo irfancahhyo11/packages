@@ -4,7 +4,7 @@ source=https://ftp.gnu.org/gnu/nano/nano-8.5.tar.xz
 format="tar"
 nano(){
     if [ "$1" == "INSTALL" ]; then
-        make install
+        ./configure
     elif [ "$1" == "REMOVE" ]; then
         make remove
     fi
