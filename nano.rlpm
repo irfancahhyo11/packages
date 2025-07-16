@@ -1,0 +1,11 @@
+name="Nano"
+description="Nano gnu linux text editor"
+source=https://ftp.gnu.org/gnu/nano/nano-8.5.tar.xz
+format="tar"
+nano(){
+    if [ "$1" == "INSTALL" ]; then
+        make install
+    elif [ "$1" == "REMOVE" ]; then
+        make remove
+    fi
+}
